@@ -9,7 +9,9 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setError('');
-   
+    setEmail('');
+    setPassword('');
+    
 
    
     if (!email || !password) {
